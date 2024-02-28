@@ -17,11 +17,22 @@
   }
 
   .header .page__title {
-    margin-left: -10px;
+    margin-left: 0;
   }
 
   .page__title {
     text-shadow: 4px 4px rgb(255, 141, 203);
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
+  .decorated-zone::before {
+    top: 5px;
+    right: 10px;
+  }
+
+  .decorated-zone::after {
+    bottom: 5px;
+    left: 10px;
   }
 
   .mobile-container {
@@ -29,7 +40,6 @@
     flex-direction: column;
     margin-top: 50px;
     padding: var(--padding-mobile);
-    gap: 10px;
   }
 
   .container__problem {
@@ -38,10 +48,6 @@
 
   .block__title-container {
     inline-size: 100%;
-  }
-
-  .page__title {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .footer {
@@ -68,5 +74,9 @@
   .container__reasons {
     display: flex;
     flex-direction: column;
+  }
+
+  .container__reasons .section__title-container {
+    max-width: 236px;
   }
 }

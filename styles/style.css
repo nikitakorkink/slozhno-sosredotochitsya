@@ -192,7 +192,10 @@
 
 .container__reasons .section__title-container:nth-child(1) {
   grid-column: 1 / span 3;
-  max-width: 315px;
+}
+
+.container__reasons .section__title-container {
+  max-inline-size: 315px;
 }
 
 .container__solutions {
