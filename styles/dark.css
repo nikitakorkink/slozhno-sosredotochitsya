@@ -5,26 +5,28 @@
 */
 :root.theme-dark {
   --background-image: url(../images/cover-image-dark.png);
-  --background-color: #000028; 
+  --background-color: #000028;
   --accent-color: #ff0070;
-  --title-color: rgb(219, 0, 255); 
-  --title-shadow: 4px 4px rgb(255, 0, 112); 
-  --hyperlink-shadow: 2px 4px rgb(255, 0, 112); 
-  --text-color: #F1B2CE;
+  --title-color: rgb(219, 0, 255);
+  --title-shadow: 4px 4px rgb(255, 0, 112);
+  --hyperlink-shadow: 2px 4px rgb(255, 0, 112);
+  --text-color: #f1b2ce;
   --title-text-color: #000028;
-  --section-title-color: #ff0070; 
-  --display-REC: flex; 
+  --section-title-color: #ff0070;
+  --decoration-color: #ff0070;
+  --display-REC: flex;
 }
 
 .page.theme_dark {
   --background-image: url(../images/cover-image-dark.png);
-  --background-color: #000028; 
+  --background-color: #000028;
   --accent-color: #ff0070;
-  --title-color: rgb(219, 0, 255); 
-  --title-shadow: 4px 4px rgb(255, 0, 112); 
-  --hyperlink-shadow: 2px 4px rgb(255, 0, 112); 
-  --text-color: #F1B2CE;
+  --title-color: rgb(219, 0, 255);
+  --title-shadow: 4px 4px rgb(255, 0, 112);
+  --hyperlink-shadow: 2px 4px rgb(255, 0, 112);
+  --text-color: #f1b2ce;
   --title-text-color: #000028;
-  --section-title-color: #ff0070; 
-  --display-REC: flex; 
+  --section-title-color: #ff0070;
+  --decoration-color: #ff0070;
+  --display-REC: flex;
 }

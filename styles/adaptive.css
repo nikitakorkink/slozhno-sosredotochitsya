@@ -1,67 +1,72 @@
-@media (width < 768px) { 
-    
-    .header { 
-        display: grid; 
-        grid-template-rows: 1fr min-content 1fr;
-        gap: 15px;
-        padding: var(--padding-mobile);
-    }
+@media (width < 768px) {
+  .header {
+    display: grid;
+    grid-template-rows: 1fr min-content 1fr;
+    gap: 15px;
+    padding: var(--padding-mobile);
+  }
 
-    .header__theme-menu { 
-        display: flex; 
-        justify-content: end;
-        margin-bottom: 0;
-    }
+  .header__theme-menu {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0;
+  }
 
-    .header__theme-menu-list { 
-        flex-direction: column; 
-    }
+  .header__theme-menu-list {
+    flex-direction: column;
+  }
 
-    .header .page__title {
-        margin-left: -10px;
-      } 
+  .header .page__title {
+    margin-left: -10px;
+  }
 
-    .mobile-container { 
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        padding: var(--padding-mobile);
-        gap: 10px;
-    }
-    
-    .container__problem { 
-        margin-top: 40px; 
-    }
+  .page__title {
+    text-shadow: 4px 4px rgb(255, 141, 203);
+  }
 
-    .block__title-container { 
-        inline-size: 100%;
-    }
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: var(--padding-mobile);
+    gap: 10px;
+  }
 
-    .page__title {
-        font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-     }
+  .container__problem {
+    margin-top: 40px;
+  }
 
-    .footer { 
-        margin-top: 40px; 
-        padding: var(--padding-mobile);
-    }
+  .block__title-container {
+    inline-size: 100%;
+  }
 
+  .page__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
+  .footer {
+    margin-top: 40px;
+    padding: var(--padding-mobile);
+  }
 }
 
 @media (width < 1024px) {
-    
-    .header__theme-menu { 
-        display: flex; 
-        justify-content: end;
-        margin-bottom: 0;
-    }
+  .header__theme-menu {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0;
+  }
 
-    .header__theme-menu-list { 
-        flex-direction: column; 
-    }
+  .header__theme-menu-list {
+    flex-direction: column;
+  }
 
-    .container__reasons { 
-        display: flex;
-        flex-direction: column;
-    }
- }
+  .page__title {
+    text-shadow: 4px 4px rgb(255, 141, 203);
+  }
+
+  .container__reasons {
+    display: flex;
+    flex-direction: column;
+  }
+}
