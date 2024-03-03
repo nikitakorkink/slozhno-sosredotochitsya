@@ -1,22 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-:root.theme-light {
-  --background-image: url(../images/cover-image-light.png);
-  --display-REC: none;
-  --accent-color: #ff8dcb;
-  --background-color: #fff1f7;
-  --title-color: #ffc2e6;
-  --title-shadow: 4px 4px rgb(255, 0, 112);
-  --hyperlink-shadow: 2px 4px rgb(255, 141, 203);
-  --text-color: #353430;
-  --title-text-color: #353430;
-  --section-title-color: #353430;
-  --decoration-color: #353430;
-}
-
 .page.theme_light {
   --background-image: url(../images/cover-image-light.png);
   --display-REC: none;
@@ -24,11 +5,15 @@
   --background-color: #fff1f7;
   --title-color: #ffc2e6;
   --title-shadow: 4px 4px rgb(255, 0, 112);
-  --hyperlink-shadow: 2px 4px rgb(255, 141, 203);
+  --footer-shadow: 2px 2px rgb(255, 0, 112);
+  --title-shadow-mobile: 4px 4px rgb(255, 141, 203);
+  --footer-shadow-moblie: 2px 2px rgb(255, 141, 203);
+  --hyperlink-shadow: 2px 2px rgb(255, 141, 203);
   --text-color: #353430;
   --title-text-color: #353430;
   --section-title-color: #353430;
   --decoration-color: #353430;
+  --decoration-color-shadow: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -39,10 +24,14 @@
     --background-color: #fff1f7;
     --title-color: #ffc2e6;
     --title-shadow: 4px 4px rgb(255, 0, 112);
-    --hyperlink-shadow: 2px 4px rgb(255, 141, 203);
+    --footer-shadow: 2px 2px rgb(255, 0, 112);
+    --title-shadow-mobile: 4px 4px rgb(255, 141, 203);
+    --footer-shadow-moblie: 2px 2px rgb(255, 141, 203);
+    --hyperlink-shadow: 2px 2px rgb(255, 141, 203);
     --text-color: #353430;
     --title-text-color: #353430;
     --section-title-color: #353430;
     --decoration-color: #353430;
+    --decoration-color-shadow: rgba(50, 49, 45, 0.4);
   }
 }
