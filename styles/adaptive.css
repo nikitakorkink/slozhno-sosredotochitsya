@@ -1,8 +1,7 @@
 @media (width < 768px) {
   .header {
-    padding: var(--padding-mobile);
-    min-block-size: 668px;
     padding: 10px;
+    min-block-size: 668px;
   }
 
   .header__title {
