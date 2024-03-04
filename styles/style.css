@@ -175,7 +175,7 @@
 }
 
 .reasons__title {
-  inline-size: 315px;
+  max-inline-size: 315px;
 }
 
 .block__text {

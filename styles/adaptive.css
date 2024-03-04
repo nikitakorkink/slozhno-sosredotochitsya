@@ -68,7 +68,7 @@
   }
 
   .reasons__title {
-    inline-size: 236px;
+    max-inline-size: 236px;
   }
 
   .container__solutions {
@@ -81,14 +81,6 @@
 }
 
 @media (width < 1024px) {
-  .page.theme_light .header__title {
-    text-shadow: var(--title-shadow-mobile);
-  }
-
-  .page.theme_light .footer__title {
-    text-shadow: var(--footer-shadow-mobile);
-  }
-
   .header__theme-menu {
     display: flex;
     justify-content: end;
